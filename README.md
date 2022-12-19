@@ -6,6 +6,8 @@ First I wanted to complete my HTML and structure out the website to include a "S
 
 I then created "sections" for different parts of the quiz which include, Highscores to view the leaderboard, an "Enter Highscores" section that would show up after the game is done, and then the last section is my "container" that includes the game and quiz questions.
 
+<img src=https://github.com/Ryebread5555/module4-dec-19-2022/blob/0015d2ffbbe65b59d10118956e0fd2e6a83e8e1b/assets/starting-page.jpg>
+
 Now my HTML is complete and I want to start styling the page to make it look not so plain. I started by marking everything included in my header. When I hover over buttons I want the cursor to change to a pointer and the opacity will go lighter to show you are on the button.
 
 I also added a progress bar to show how many questions are left as you progress through the quiz.
