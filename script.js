@@ -83,7 +83,7 @@ answerButtons.forEach(el => el.addEventListener('click', function (e) {
         
     }
     else {
-        secondsLeft -= 10;
+        secondsLeft -= 5;
         score += 10
 
         // subtract time
