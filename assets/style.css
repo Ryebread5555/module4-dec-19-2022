@@ -1,0 +1,165 @@
+:root {
+    --purple: #9A32CD;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+/* header */
+
+header {
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+}
+
+button.highScoresButton {
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: var(--purple);
+    position: relative;
+    right: 800px;
+    bottom: 20px;
+}
+
+.timer-count {
+    font-size: 60px;
+    position: relative;
+    left: 800px;
+    bottom: 20px;
+}
+
+button.highScoresButton:hover {
+    cursor: pointer;
+}
+
+/* main */
+
+.summary {
+    text-align: center;
+    font-size: 20px;
+    font: bold;
+}
+
+button.start-quiz {
+    font-size: 20px;
+    background-color: var(--purple);
+    position: relative;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    left: 45%;
+    top: 50px;
+}
+
+button.start-quiz:hover {
+    opacity: 70%;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+/* container */
+
+.container {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -450px;
+}
+
+#game-start {
+    visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+button.choice {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: var(--purple);
+    font-size: 2rem;
+    min-width: 10px;
+}
+
+button.choice:hover {
+    cursor: pointer;
+    opacity: 70%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: transform 100ms;
+}
+
+/* hud display */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: auto;
+}
+
+.hud-main-text {
+    text-align: center;
+    margin-top: auto;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid green;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: green;
+    width: 0%;
+}
+
+/* High Scores */
+
+
+.highScores {
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+    visibility: hidden;
+}
+
+.enterHighScores {
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+    visibility: hidden;
+    margin-top: -300px;
+}
+
+/* media display */
+
+@media screen and (max-width: 768px) {
+    .container {
+        min-width: 20rem;
+    }
+
+}
